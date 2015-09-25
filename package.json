@@ -6,6 +6,7 @@
   "author": "Eugene Nagorny <ideviantik@gmail.com>",
   "repository": "git@github.com:enagorny/eatmeskipme-server.git",
   "dependencies": {
+    "body-parser": "^1.14.0",
     "connect": "3.4.0"
   },
   "engines": {
