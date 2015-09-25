@@ -1,0 +1,14 @@
+{
+  "name": "eatmeskipme-server",
+  "version": "0.0.1",
+  "description": "Zonehack ",
+  "licence": "MIT",
+  "author": "Eugene Nagorny <ideviantik@gmail.com>",
+  "repository": "git@github.com:enagorny/eatmeskipme-server.git",
+  "dependencies": {
+    "connect": "3.4.0"
+  },
+  "engines": {
+    "node": ">=0.10.3 <=0.12"
+  }
+}
