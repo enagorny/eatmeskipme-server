@@ -9,8 +9,9 @@ var JS = JSON.stringify;
 app.use(bodyParser.urlencoded());
 
 
-app.use(function(req, res){
-  res.end(JS({'hello': 'eatmeskipme'}));
+app.use('/intolerances/', function(req, res){
+    // request them from db and return as list
+    res.end(JS({'intolerances': ['coke', 'weed']}));
 });
 
 
